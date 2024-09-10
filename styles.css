@@ -48,6 +48,7 @@ ul {
 .header-container img {
     max-width: 100%;
     height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .header-container button {
@@ -59,6 +60,12 @@ ul {
     border-radius: .5rem;
     border-style: none;
     border-color: #3B82F6;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.header-container button:hover {
+    background-color: white;
+    color:#3B82F6;
 }
 
 .header-container h1 {
@@ -91,6 +98,7 @@ ul {
 .services-container img {
     border-radius: 1rem;
     border: .25rem solid #3B82F6;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .service {
