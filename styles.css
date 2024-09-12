@@ -162,6 +162,24 @@ ul {
     padding: 2rem;
 }
 
+.about {
+    display: flex;
+    flex: 1 1 0;
+}
+.about-content {
+    background-color: white;
+}
+.about-content h1 {
+    padding: 1rem 1rem 0;
+}
+.about-content p {
+    padding: 1rem;
+}
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
 @media screen and (max-width: 1800px) {
     body {
       padding: 0;
