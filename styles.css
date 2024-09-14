@@ -24,6 +24,25 @@ ul {
     list-style: none;
 }
 
+button {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.large-logo {
+    background-color: #1F2937;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.socials li {
+    list-style: none;
+}
+
 .main-header {
     padding: 1rem 10rem;
     background-color: #1F2937;
@@ -37,10 +56,10 @@ ul {
     font-family: "Poppins", sans-serif;
 }
 
-.push-right {
-    margin-left: auto;
-  }
-
+.navigation img {
+    width: 100%;
+    height: auto;
+}
 
 .main-nav a {
     font-size: 1.25rem;
@@ -52,6 +71,11 @@ ul {
 .main-nav a:hover {
     color: yellow;
 }
+
+.push-right {
+    margin-left: auto;
+  }
+
 
 .header-phone {
     text-align: center;
@@ -284,5 +308,8 @@ ul {
     }
     .about-image {
         max-width: 100%;
+    }
+    .main-nav a {
+        font-size: 1.2rem;
     }
   }
