@@ -41,14 +41,32 @@ ul {
     margin-left: auto;
   }
 
+
 .main-nav a {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: .3rem;
 }
 
 .main-nav a:hover {
     color: yellow;
+}
+
+.header-phone {
+    text-align: center;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: white;
+    background-color: gray;
+    padding: .5rem 0;
+}
+
+.header-phone a {
+    font-size: 1.25rem;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
 }
 
 .header-container {
@@ -108,6 +126,13 @@ ul {
     justify-content: center;
     padding-bottom: 4rem;
 }
+
+.services-container p {
+    font-size: 1.25rem;
+    padding-top: .5rem;
+    font-family: "Poppins", sans-serif;
+}
+
 .services-container img {
     border-radius: 1rem;
     border: .25rem solid #3B82F6;
